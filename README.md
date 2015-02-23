@@ -2,7 +2,7 @@
 
 [![Gem Version](http://img.shields.io/gem/v/godmin-redactor.svg)](https://rubygems.org/gems/godmin-redactor)
 
-Godmin Redactor is a redactor component for [Godmin](https://github.com/varvet/godmin) that adds an `f.redactor_field` to forms.
+Godmin Redactor is a redactor component for [Godmin](https://github.com/varvet/godmin) that adds an `f.redactor_area` to forms.
 
 ## Installation
 
@@ -13,7 +13,7 @@ gem "godmin-redactor"
 
 Or to the admin engine's `gemspec`:
 ```ruby
-s.add_dependency "godmin-redactor", "~> x.x.x"
+s.add_dependency "godmin-redactor", "~> 0.1.0"
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ Use the redactor field in your form like so:
 ```erb
 <%= form_for(@resource) do |f| %>
   <%= f.input_field :title %>
-  <%= f.redactor_field :body } %>
+  <%= f.redactor_area :body } %>
 <% end %>
 ```
 
