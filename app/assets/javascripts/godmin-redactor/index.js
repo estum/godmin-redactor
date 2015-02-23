@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require redactor
+//= require plugins/table
 
 window.Godmin = window.Godmin || {};
 
@@ -23,8 +24,11 @@ Godmin.Redactor = (function() {
     initializeRedactor($('[data-behavior~=redactor]'));
   }
 
-  function initializeRedactor($el, options) {
-    $el.redactor(options);
+  function initializeRedactor($el) {
+    $el.redactor({
+      plugins: ['table']
+    });
+
   }
 
   return {
