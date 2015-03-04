@@ -29,7 +29,7 @@ Use the redactor area in your form like so:
 
 ## Contributors
 
-https://github.com/varvet/godmin-uploads/graphs/contributors
+https://github.com/varvet/godmin-redactor/graphs/contributors
 
 ## License
 
