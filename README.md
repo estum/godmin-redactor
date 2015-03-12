@@ -16,14 +16,31 @@ Or to the admin engine's `gemspec`:
 s.add_dependency "godmin-redactor", "~> 0.1.0"
 ```
 
+Require it in your `app/assets/javascripts/application.js`, just after the `require godmin` line:
+
+```js
+//= require godmin
+//= require godmin-redactor
+```
+
+And finally, do the same with your `app/assets/stylesheets/application.css`:
+```scss
+*= require godmin
+*= require godmin-redactor
+```
+
 ## Usage
 
-Use the redactor field in your form like so:
+Use the redactor area in your form like so:
 
 ```erb
-<%= form_for(@resource) do |f| %>
-  <%= f.input_field :title %>
-  <%= f.redactor_area :body } %>
+<%= form_for @resource do |f| %>
+  <%= f.text_field :title %>
+  <%= f.redactor_area :body, {
+    buttons: ['formatting', 'bold', 'italic'],
+    plugins: ['fullscreen']
+  } %>
+  <%= f.submit %>
 <% end %>
 ```
 
