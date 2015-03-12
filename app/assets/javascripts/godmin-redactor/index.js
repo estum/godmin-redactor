@@ -12,6 +12,7 @@
 //
 //= require redactor
 //= require langs/sv
+//= require plugins/fullscreen
 //= require plugins/table
 
 window.Godmin = window.Godmin || {};
@@ -26,10 +27,7 @@ Godmin.Redactor = (function() {
   }
 
   function initializeRedactor($el) {
-    $el.redactor({
-      plugins: ['table']
-    });
-
+    $el.redactor($el.data("options"));
   }
 
   return {
