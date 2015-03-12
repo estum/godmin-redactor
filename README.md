@@ -2,7 +2,7 @@
 
 [![Gem Version](http://img.shields.io/gem/v/godmin-redactor.svg)](https://rubygems.org/gems/godmin-redactor)
 
-Godmin Redactor is a redactor component for [Godmin](https://github.com/varvet/godmin) that adds an `f.redactor_area` to forms.
+Godmin Redactor is a [Redactor](http://imperavi.com/redactor/) component for [Godmin](https://github.com/varvet/godmin) that adds an `f.redactor_area` to forms.
 
 ## Installation
 
@@ -46,8 +46,11 @@ Use the redactor area in your form like so:
 
 ## Contributors
 
-https://github.com/varvet/godmin-uploads/graphs/contributors
+https://github.com/varvet/godmin-redactor/graphs/contributors
 
 ## License
 
-Licensed under the MIT license. See the separate MIT-LICENSE file.
+Godmin Redactor is licensed under the MIT license. See the separate MIT-LICENSE file.
+
+[Redactor](http://imperavi.com/redactor/) has [3 different licenses](http://imperavi.com/redactor/download/).
+For details please see [License Agreement](http://imperavi.com/redactor/license/).
