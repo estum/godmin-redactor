@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require redactor
+//= require langs/sv
 //= require plugins/table
 
 window.Godmin = window.Godmin || {};
