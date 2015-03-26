@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.1.2 - 2015-03-26
+Features
+- Adds possibility to use multiple redactor areas with different configurations on the same page
+
 ### 0.1.1 - 2015-03-12
 Features
 - Adds possibility to pass Redactor options
