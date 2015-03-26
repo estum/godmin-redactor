@@ -27,7 +27,9 @@ Godmin.Redactor = (function() {
   }
 
   function initializeRedactor($el) {
-    $el.redactor($el.data("options"));
+    $el.each(function() {
+      $(this).redactor($(this).data("options"));
+    });
   }
 
   return {
