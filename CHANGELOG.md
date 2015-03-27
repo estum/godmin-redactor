@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.1.3 - 2015-03-27
+Features
+- Updates Swedish translation (It's called "Brödtext")
+
 ### 0.1.2 - 2015-03-26
 Features
 - Adds possibility to use multiple redactor areas with different configurations on the same page
