@@ -55,7 +55,7 @@ $.Redactor.opts.langs['sv'] = {
     or_choose: 'Eller välj',
     orderedlist: 'Ordnad lista',
     outdent: 'Minska indentering',
-    paragraph: 'Paragraf',
+    paragraph: 'Brödtext',
     quote: 'Citat',
     right: 'Höger',
     rows: 'Rader',
