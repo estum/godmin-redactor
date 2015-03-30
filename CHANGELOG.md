@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.1.4 - 2015-03-30
+Features
+- Update to [Redactor version 10.0.9](http://imperavi.com/redactor/log/)
+
 ### 0.1.3 - 2015-03-27
 Features
 - Updates Swedish translation (It's called "Brödtext")
