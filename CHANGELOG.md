@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.1.5 - 2015-04-15
+Issues
+- Moves vendor assets into sub directory (#2)
+
 ### 0.1.4 - 2015-03-30
 Features
 - Update to [Redactor version 10.0.9](http://imperavi.com/redactor/log/)
