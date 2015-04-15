@@ -10,10 +10,10 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require redactor
-//= require langs/sv
-//= require plugins/fullscreen
-//= require plugins/table
+//= require redactor/redactor
+//= require redactor/langs/sv
+//= require redactor/plugins/fullscreen
+//= require redactor/plugins/table
 
 window.Godmin = window.Godmin || {};
 
