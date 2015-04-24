@@ -27,13 +27,12 @@ Godmin.Redactor = (function() {
   }
 
   function initializeRedactor($el) {
-    $el.each(function() {
-      $(this).redactor($(this).data("options"));
-    });
+    $el.redactor($el.data("options"));
   }
 
   return {
-    initialize: initialize
+    initialize: initialize,
+    initializeRedactor: initializeRedactor
   };
 })();
 
